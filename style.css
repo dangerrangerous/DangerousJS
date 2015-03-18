@@ -15,6 +15,9 @@ body {
   color: #019DF8;
   text-shadow: 0px 0px 10px #019DF8;
 }
+.header-info {
+  color: #EEE;
+}
 h1 span {
   color: #EEE;
 }
@@ -37,12 +40,16 @@ h1 span {
 }
 
 .container-fluid {
-  height: 300px;
+  min-height: 300px;
   padding: 50px;
   background-color: black;
   font-family: 'Open Sans';
   font-color: #EEE;
 }
 .thumbnail {
-  z-index: 1;
+
+}
+#dngr {
+  max-height: 40px;
+  max-width: 40px;
 }
